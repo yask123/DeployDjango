@@ -1,14 +1,17 @@
 # DeployDjango
 
-### Safely deploy your Django app in less 1 minute! Got a cool Django web app running in your local machine?
+### Safely deploy your Django app in less 1 minute!
 
- Wish to take it to the world ASAP, without scratching your head ?
+Got a cool Django web app running in your local machine?
+Wish to take it to the world ASAP, without scratching your head ?
 
 Usage Just run this bash script from the root of your django project in your Ubuntu instance.
 
+```bash
 $ sudo ./deploydjango projectname
+```
 
- That’s it, You’r done!
+###That’s it, You’r done!
 
 Visit http://ip-address-of-your-instance to see your web app live!
 
