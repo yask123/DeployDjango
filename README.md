@@ -18,13 +18,16 @@ Visit `http://ip-address-of-your-instance` to see your web app live!
 
 Instructions 
 
-
-Installing the DeployDjango script $ wget https://raw.githubusercontent.com/yask123/DeployDjango/master/deploydjango.sh
+### Installing the DeployDjango script 
+```
+$ wget https://raw.githubusercontent.com/yask123/DeployDjango/master/deploydjango.sh
 $ chmod +x deploydjango.sh
+```
 
 From your Django App’s root directory (Where manage.py file exists).
-
+```bash
 ./deploydjango.sh project_name
+```
 
 
 
