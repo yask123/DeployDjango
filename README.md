@@ -13,7 +13,8 @@ $ sudo ./deploydjango projectname
 
 ###That’s it, You’r done!
 
-Visit http://ip-address-of-your-instance to see your web app live!
+
+### Visit `http://ip-address-of-your-instance` to see your web app live!
 
 Instructions 
 
