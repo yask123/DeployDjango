@@ -34,15 +34,17 @@ From your Django App’s root directory (Where manage.py file exists).
 
 Notes:
 
-Script works for Ubuntu instance only!
-Make sure port 80 is open (For your app to be accessible to users after deployment) 
+1. Script works for Ubuntu instance only!
+2. Make sure port 80 is open (For your app to be accessible to users after deployment) 
 
-Behind the scene The script would run your django app with gunicorn on port 8000, and would use nginx reverse proxy settings to make your app accessible from port 80. 
+### Behind the scene 
 
-The script does the following things:
+The script would run your django app with gunicorn on port 8000, and would use nginx reverse proxy settings to make your app accessible from port 80. 
 
-Install nginx,python-pip, gunicorn.
-Set up the correct nginx configuration for your django app
-Start nginx service on your instance
-Start your app with gunicorn
-Perform tests to verify if deployment was successful
+###### The script does the following things:
+
+* Install nginx,python-pip, gunicorn.
+* Set up the correct nginx configuration for your django app
+* Start nginx service on your instance
+* Start your app with gunicorn
+* Perform tests to verify if deployment was successful (ToDo)
