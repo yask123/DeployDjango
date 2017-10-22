@@ -11,7 +11,7 @@ Usage Just run this bash script from the root of your django project in your Ubu
 $ sudo ./deploydjango projectname
 ```
 
-###That’s it, You’r done!
+### That’s it, You’r done!
 
 
 Visit `http://ip-address-of-your-instance` to see your web app live!
